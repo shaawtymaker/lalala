@@ -5,8 +5,8 @@ const gif = document.querySelector(".gif");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Being with you is my biggest blessing. I love you.";
-    gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGNhdXh1b252b2F2b2U4cHRlNGkwMDZsajllaGF1cDJyb2p4NXl2YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G6N0pDDgDpLjUvNoyQ/giphy.gif";
+    question.innerHTML = "Will you be my Valentine??.";
+    gif.src = "<div class="tenor-gif-embed" data-postid="20341232" data-share-method="host" data-aspect-ratio="0.73125" data-width="100%"><a href="https://tenor.com/view/bemy-valentine-will-you-be-gif-20341232">Bemy Valentine GIF</a>from <a href="https://tenor.com/search/bemy-gifs">Bemy GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>";
 
     // Hide the No button
     noBtn.style.display = "none";
